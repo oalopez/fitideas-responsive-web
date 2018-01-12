@@ -1,0 +1,313 @@
+@font-face {
+    font-family: NexaL;
+    src: url("../fonts/Nexa_Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: NexaB;
+    font-weight: bold;
+    src: url("../fonts/Nexa_Bold.otf") format("opentype");
+}
+
+body {
+	font-family: NexaL;
+	background-color: #175169;
+}
+
+h3 {
+	font-family: NexaB;
+}
+
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    vertical-align: middle;
+    max-width: 400px;
+    max-height: 200px;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+.pd-dn {
+    padding-bottom: 5rem;
+}
+.pd-dn-sm {
+    padding-bottom: 1rem;
+}
+.pd-tp {
+    padding-top: 5rem;
+}
+.pd-tp-xl {
+    padding-top: 8rem;
+}
+.pd-tp-sm {
+    padding-top: 1rem;
+}
+.pd-lf {
+    padding-left: 5rem;
+}
+.pd-lf-xxl{
+    padding-left: 20rem;
+}
+.pd-lf-sm {
+    padding-left: 1rem;
+}
+.pd-rg {
+    padding-right: 5rem;
+}
+.pd-rg-sm {
+    padding-right: 1rem;
+}
+
+.pd-1 {
+	padding: 1% 1%;
+}
+
+.what {
+	background-color: white;
+}
+
+.bg-fi {
+	background-image: url('../images/bg_fi_03.png');
+	height: 681px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+}
+
+.ctr-img {
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.logo {
+	float: left;
+    top: 200px;
+    left: 150px;
+    position: relative;
+}
+
+.moto {
+	color: white;
+    letter-spacing: 4px;
+    line-height: 2.2;
+    background-color: #229B9B;
+    opacity: 0.8;
+    font-family: NexaB;
+    padding: 7% 4%;
+    text-align: center;
+	
+}
+.overview {
+	width: 300px;
+	display:inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	vertical-align: top;
+}
+.resumen {
+	padding-top: 50px;
+	text-align: center;
+	padding-bottom: 100px;
+}
+.soluciones {
+	background-image: url(../images/middle_background.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 80px;
+	background-size: cover;
+	background-color: white;
+
+}
+.column5pct 
+{
+	width: 5%;
+	display:inline-block;
+}
+.column10pct 
+{
+	width: 10%;
+	display:inline-block;
+	
+}
+.column80pct 
+{
+	width: 65%;
+	display:inline-block;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.quote {
+	text-align: center;
+	padding-bottom: 50px;
+}
+.services_group {
+	text-align: center;
+	padding-bottom: 10px;
+}
+.service{
+	display: inline-block;
+	background-image: url(../images/service_description_03.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 298px;
+	height: 253px;
+	vertical-align: top;
+	padding-top: 30px;
+	padding-left: 40px;
+	padding-right: 20px;
+	
+}
+.service_name {
+	padding-bottom: 15px;
+	font-family: NexaB;
+}
+.service_description {
+	text-align: justify;
+	font-size: 12px;
+}
+.clients_title {
+	width: 100%;
+	text-align: center;
+	color: white;
+	line-height: 50px;
+	font-family: NexaB;
+	letter-spacing: 10px;
+}
+.clientes_row1 {
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 50px;
+}
+.clientes_row2 {
+	text-align: center;
+}
+.cliente {
+	display: inline-block;
+}
+.clientes {
+	background-image: url(../images/clientes_bg_02.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	height: 434px;
+	background-size: cover;
+}
+.nosotros {
+	text-align: center;
+}
+.team_box
+{
+	background-color: #175169;
+	/*width: 1096px;*/
+	display: inline-block;
+	width: 100%;
+	color: white;
+    
+	
+}
+.white-text {
+	color: white;
+	font-family: NexaB;
+	letter-spacing: 1px;
+}
+.team_faces {
+	display: inline-block;
+	
+}
+.face {
+	display: inline-block;
+	float: left;
+	padding-left: 20px;
+	padding-bottom: 0px;
+	background-image: url(../images/team/face_hover_03.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 160px;
+	
+}
+
+.no_photo {
+
+	opacity: 0;
+}
+
+.face_comment {
+	text-align: justify;
+	padding-bottom: 20px;
+	padding-right: 20px;
+}
+.contacto{
+	text-align: center;
+}
+.contact_box {
+	background-color: #313332;
+	width: 100%;
+	display: inline-block;
+	color: white;
+}
+.top_contact {
+	background-image: url(../images/bottom_faces_02.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	height: 73px;
+	background-size: cover;
+}
+
+
+.face:hover img {
+    visibility: hidden;
+	opacity: 1;
+}
+
+.text_container {
+	color: white;
+    display: none;
+	position:  relative;
+	top: -100px;
+	left: 20px;
+	text-align: left;
+}
+
+.text_container_no_photo {
+	color: white;
+    display: block;
+	position:  relative;
+	top: -90px;
+	left: 20px;
+	text-align: left;
+}
+
+    
+.face:hover .text_container {
+    display: block;
+}
+
+.footer {
+	
+	display: inline-block;
+	text-align: left;
+	padding-bottom: 20px;
+}
+.moto2 {
+	
+	color: white;
+    font-family: NexaB;
+    letter-spacing: 10px;
+    font-size: x-large;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.name {
+	font-family: NexaB;
+}
